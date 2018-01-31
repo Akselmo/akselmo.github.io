@@ -1,0 +1,57 @@
+/*Made by Akseli Lahtinen */
+
+body {
+    padding-top: 5rem;
+}
+
+hr {
+    margin-top: 2rem;
+}
+
+.items-container {
+    padding: 3rem 1.5rem;
+}
+
+.item {
+    margin-bottom: 50px;
+}
+
+.media {
+    margin-bottom: 3rem;
+}
+
+.media h4 {
+    padding-top: 150px;
+    margin-top: -150px;
+}
+
+.header {
+    text-align: center;
+}
+
+.mr-3 {
+    width: 125px;
+}
+
+footer {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 440px) {
+    .dropdown-item {
+        word-wrap: break-word;
+        white-space: normal;
+    }
+    .item h4 {
+        padding-top: 160px;
+        margin-top: -160px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .item h4 {
+        padding-top: 160px;
+        margin-top: -160px;
+    }
+}
