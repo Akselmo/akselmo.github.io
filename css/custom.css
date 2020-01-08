@@ -36,6 +36,11 @@ footer {
     text-align: center;
 }
 
+
+.vl {
+    border-left: 1px solid black;
+}
+
 @media screen and (max-width: 440px) {
     .dropdown-item {
         word-wrap: break-word;
@@ -47,9 +52,25 @@ footer {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
     .item h4 {
         padding-top: 160px;
         margin-top: -160px;
     }
+    .media-body{
+        margin-top: 140px;
+        margin-left: -130px;
+    }
+    .mr-3
+    {
+        margin-right: 0 !important;
+        height: 125px;
+        width: 125px;
+    }
+    .noimage
+    {
+        margin-top: 0px;
+
+    }
+
 }
