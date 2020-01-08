@@ -73,4 +73,9 @@ footer {
 
     }
 
+    .vl {
+        border-left: 0px;
+        border-top: 1px solid black;
+    }
+
 }
