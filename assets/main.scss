@@ -1,0 +1,254 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/** Basic styling */
+
+body {
+	font: 400 16px/1.5 'Anonymous Pro';
+	color: rgb(0, 201, 117);
+	background-color: #222222;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-feature-settings: "kern" 1;
+	-moz-font-feature-settings: "kern" 1;
+	-o-font-feature-settings: "kern" 1;
+	font-feature-settings: "kern" 1;
+	font-kerning: normal;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+/* anonymous-pro-regular - latin */
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/anonymous-pro-v14-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../assets/fonts/anonymous-pro-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/anonymous-pro-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/anonymous-pro-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/anonymous-pro-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/anonymous-pro-v14-latin-regular.svg#AnonymousPro') format('svg'); /* Legacy iOS */
+}
+
+
+/** Links */
+
+a {
+	color: #28daf1;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00c472;
+}
+
+a:hover {
+	color: rgb(106, 238, 176);
+	text-decoration: underline;
+}
+
+.social-media-list a:hover {
+	text-decoration: none;
+}
+
+.social-media-list a:hover .username {
+	text-decoration: underline;
+}
+
+
+/** Blockquotes */
+
+blockquote {
+	color: #828282;
+	border-left: 4px solid #e8e8e8;
+}
+
+
+
+/** Code formatting */
+
+pre,
+code {
+	border: 1px solid #000000;
+	background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.svg-icon {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	fill: #828282;
+	padding-right: 5px;
+	vertical-align: text-top;
+}
+
+
+
+/** Tables */
+
+table {
+	margin-bottom: 30px;
+	width: 100%;
+	text-align: left;
+	color: #3f3f3f;
+	border-collapse: collapse;
+	border: 1px solid #e8e8e8;
+}
+
+table tr:nth-child(even) {
+	background-color: #f7f7f7;
+}
+
+
+table th {
+	background-color: #f0f0f0;
+	border: 1px solid #dedede;
+	border-bottom-color: #c9c9c9;
+}
+
+table td {
+	border: 1px solid #e8e8e8;
+}
+
+
+/** Site header */
+
+.site-header {
+	border-top: 5px solid #424242;
+	border-bottom: 1px solid #e8e8e8;
+	min-height: 55.95px;
+	position: relative;
+}
+
+.site-title,
+.site-title:visited {
+	color: #22fa95;
+}
+
+
+.site-nav .menu-icon {
+	display: none;
+	color: rgb(0, 0, 0);
+}
+
+.site-nav .page-link {
+	color: rgb(0, 139, 109);
+	line-height: 1.5;
+}
+
+
+@media screen and (max-width: 600px) {
+	.site-nav {
+		position: absolute;
+		top: 9px;
+		right: 15px;
+		background-color: #3dffdf;
+		border: 1px solid #000000;
+		border-radius: 5px;
+		text-align: right;
+	}
+
+	.site-nav .menu-icon>svg {
+		fill: #000000;
+	}
+}
+
+
+/** Site footer */
+
+.site-footer {
+	border-top: 1px solid #e8e8e8;
+	padding: 30px 0;
+}
+
+
+.footer-col-wrapper {
+	font-size: 15px;
+	color: #828282;
+	margin-left: -15px;
+}
+
+
+
+/** Page content */
+
+.post-list {
+	margin-left: 0;
+	list-style: none;
+}
+
+.post-meta {
+	font-size: 14px;
+	color: #828282;
+}
+
+
+.highlight { background: rgb(131, 130, 130); }
+.highlighter-rouge .highlight { background: rgb(110, 110, 110); }
+.highlight .c { color: #998; font-style: italic; }
+.highlight .err { color: #a61717; background-color: #4b4b4b; }
+.highlight .k { font-weight: bold; }
+.highlight .o { font-weight: bold; }
+.highlight .cm { color: #998; font-style: italic; }
+.highlight .cp { color: #999; font-weight: bold; }
+.highlight .c1 { color: #998; font-style: italic; }
+.highlight .cs { color: #999; font-weight: bold; font-style: italic; }
+.highlight .gd { color: rgb(100, 100, 100); background-color: rgb(97, 97, 97); }
+.highlight .gd .x { color: rgb(109, 109, 109); background-color: #faa; }
+.highlight .ge { font-style: italic; }
+.highlight .gr { color: #a00; }
+.highlight .gh { color: #999; }
+.highlight .gi { color: rgb(104, 104, 104); background-color: #dfd; }
+.highlight .gi .x { color: rgb(51, 51, 51); background-color: #afa; }
+.highlight .go { color: #888; }
+.highlight .gp { color: #555; }
+.highlight .gs { font-weight: bold; }
+.highlight .gu { color: #aaa; }
+.highlight .gt { color: #a00; }
+.highlight .kc { font-weight: bold; }
+.highlight .kd { font-weight: bold; }
+.highlight .kp { font-weight: bold; }
+.highlight .kr { font-weight: bold; }
+.highlight .kt { color: #458; font-weight: bold; }
+.highlight .m { color: #099; }
+.highlight .s { color: #d14; }
+.highlight .na { color: #008080; }
+.highlight .nb { color: #0086B3; }
+.highlight .nc { color: #458; font-weight: bold; }
+.highlight .no { color: #008080; }
+.highlight .ni { color: #800080; }
+.highlight .ne { color: #900; font-weight: bold; }
+.highlight .nf { color: #900; font-weight: bold; }
+.highlight .nn { color: #555; }
+.highlight .nt { color: #000080; }
+.highlight .nv { color: #008080; }
+.highlight .ow { font-weight: bold; }
+.highlight .w { color: #bbb; }
+.highlight .mf { color: #099; }
+.highlight .mh { color: #099; }
+.highlight .mi { color: #099; }
+.highlight .mo { color: #099; }
+.highlight .sb { color: #d14; }
+.highlight .sc { color: #d14; }
+.highlight .sd { color: #d14; }
+.highlight .s2 { color: #d14; }
+.highlight .se { color: #d14; }
+.highlight .sh { color: #d14; }
+.highlight .si { color: #d14; }
+.highlight .sx { color: #d14; }
+.highlight .sr { color: #009926; }
+.highlight .s1 { color: #d14; }
+.highlight .ss { color: #990073; }
+.highlight .bp { color: #999; }
+.highlight .vc { color: #008080; }
+.highlight .vg { color: #008080; }
+.highlight .vi { color: #008080; }
+.highlight .il { color: #099; }
