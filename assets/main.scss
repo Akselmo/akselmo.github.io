@@ -258,3 +258,9 @@ pre, code { background-color: #272822; }
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
 
+
+.utterances .utterances-frame {
+	font: 400 16px/1.5 'Anonymous Pro';
+	color: rgb(216, 216, 216);
+	background-color: #080808;
+}
