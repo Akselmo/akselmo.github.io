@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How and Why I Got Into Game Dev?"
+title:  "How and why I got into gamedev"
 date:   2021-05-30 22:32:31 +03:00
 ---
 
