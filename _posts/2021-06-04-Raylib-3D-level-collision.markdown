@@ -52,7 +52,7 @@ bool CheckLevelCollision(Vector3 entityPos, Vector3 entitySize)
 }
 ```
 
-It's probably not the most efficient, but it works!
+It's probably not the most efficient, but it works! I basically followed the example here: [https://www.raylib.com/examples/web/models/loader.html?name=models_box_collisions](https://www.raylib.com/examples/web/models/loader.html?name=models_box_collisions)
 
 ## About raycasts
 
