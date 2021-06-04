@@ -10,11 +10,7 @@ I am a Finnish guy in my late 20s and I work as a stability engineer in my day j
 But on my free time I make games and play them!
 
 You can find all my games here:
-[Itch.io][itchio]
+[Itch.io](https://akselmo.itch.io)
 
 And my twitter is here:
-[Twitter][twitter]
-
-
-[itchio]: https://akselmo.itch.io
-[twitter]: https:/twitter.com/akselmo
+[Twitter](https:/twitter.com/akselmo)
