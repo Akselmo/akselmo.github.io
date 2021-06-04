@@ -4,7 +4,7 @@ title:  "How and why I got into gamedev"
 date:   2021-05-30 22:32:31 +03:00
 ---
 
-*Note: This post was originally for [Tecsiederp's (my fiancees) blog](https://tecsielity.wordpress.com/2018/10/13/guest-post-how-and-why-i-got-into-game-dev-akselmo/), however I wanted to preserve it here as well. It was originally written in 2018-10-13, and I have removed outdated information.*
+
 
 I’ve tried many, many creative outlets and other hobbies. I’ve tried writing, drawing, painting, playing guitar, playing piano and some more. I’ve tried many hobbies among gaming, such as football (not handegg) and airsoft (which I actually really liked).
 
@@ -81,3 +81,7 @@ I was told someone wanted to know how I come up with concept for a game. It all 
 Currently I'm working on an RPG called Loputon with Unity and unnamed Scifi FPS made with C using [Raylib](https://www.raylib.com/).
 
 *In conclusion, gamedev is my thing. I love it and I hope to make games till the end. If you haven’t felt at home with drawing, writing, video making or other creative outlets, give gamedev a try!*
+
+---
+
+*Note: This post was originally for [Tecsiederp's (my fiancees) blog](https://tecsielity.wordpress.com/2018/10/13/guest-post-how-and-why-i-got-into-game-dev-akselmo/), however I wanted to preserve it here as well. It was originally written in 2018-10-13, and I have removed outdated information.*
