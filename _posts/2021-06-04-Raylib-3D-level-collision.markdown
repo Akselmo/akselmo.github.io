@@ -85,6 +85,6 @@ float TestLevelHit(Ray rayCast)
 }
 ```
 
-**You can find the full code of my Raylib FPS here: [https://github.com/Akselmo/ScifiFPS](https://github.com/Akselmo/ScifiFPS)**
+**You can find the full code of my Raylib FPS here: [https://github.com/Akselmo/Artificial-Rage](https://github.com/Akselmo/Artificial-Rage)**
 
 I hope these code snippets will be useful to someone who is battling with same problems! 

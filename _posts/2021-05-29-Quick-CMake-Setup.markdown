@@ -4,7 +4,7 @@ title:  "Quick CMake setup for VSCode"
 date:   2021-05-29 15:37:11 +03:00
 ---
 
-When setting up my [ScifiFPS](https://github.com/Akselmo/ScifiFPS) C/[Raylib](https://www.raylib.com/) project, I was having lots of problems with Makefiles. Apparently this is not uncommon, however I'm pretty new in C and makefiles in the first place, *and* setting it all up with VSCode was also a bit of a hassle. 
+When setting up my [ScifiFPS](https://github.com/Akselmo/Artificial-Rage) C/[Raylib](https://www.raylib.com/) project, I was having lots of problems with Makefiles. Apparently this is not uncommon, however I'm pretty new in C and makefiles in the first place, *and* setting it all up with VSCode was also a bit of a hassle. 
 
 I however managed to get my CMake files work nicely with VSCode. Keep in mind this **has only been tested on Windows**, because as much as I'd love to run Linux as my daily driver, I haven't had the chance to do the switch yet. Also this was made for **Raylib** project, so you probaby will have to modify your build command etc. to suit your needs.
 
