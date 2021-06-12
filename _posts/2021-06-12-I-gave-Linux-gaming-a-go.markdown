@@ -8,6 +8,8 @@ I upgraded my PC with Ryzen 5 3600, which also meant I needed a new motherboard.
 
 I then decided to try Linux Mint as my main OS for few days since I had to reinstall everything anyway. I really enjoyed the freedom of tinkering it gives to the user and I spent couple days just making the OS look more "mine."
 
+![My Linux desktop](/assets/images/linux_desktop.png)
+
 Then, I began trying games out. I had some problems with games installing through Lutris since my other drive was in NTFS and not ext4 filesystem, so if I had realised that, 
 I could have saved some time and frustration and spent time actually playing games. (Lutris warned me but I wasn't sure it would affect me. Now I know better. :P )
 
